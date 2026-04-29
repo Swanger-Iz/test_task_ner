@@ -1,0 +1,21 @@
+[project]
+name = "test-task-ner"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ilgiz Magadeiv",email = "swanger789@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.4.4,<3.0.0)",
+    "opencv-python (>=4.13.0.92,<5.0.0.0)",
+    "matplotlib (>=3.10.9,<4.0.0)",
+    "easyocr (>=1.7.2,<2.0.0)",
+    "transformers (>=5.7.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
