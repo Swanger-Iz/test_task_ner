@@ -7,7 +7,7 @@
 Проект решает задачу извлечения персон (ФИО) из текста с помощью NER. 
 Выбрал модель `FacebookAI/xlm-roberta-large-finetuned-conll03-english` обрабатывает русскоязычные тексты и возвращает структурированные данные.
 
-## Файлы:
+### Файлы:
 * Основной ресерч и работа: [research.ipynb](research.ipynb)
 * Готовый скрипт для запуска: [main.py](main.py)
 
@@ -29,7 +29,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 # Или через pip
 pip install poetry
 ```
-**Документация:** `https://python-poetry.org/docs/`
+**Документация:** [`https://python-poetry.org/docs/`](https://python-poetry.org/docs/)
 
 
 ### 2. Клонирование репозитория
